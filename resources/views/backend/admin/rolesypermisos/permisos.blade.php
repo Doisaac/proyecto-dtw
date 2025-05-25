@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-        /* 🎨 Paleta de colores */
+        /* Paleta de colores */
         :root {
             --primary: #219EBC;
             --primary-light: #8ECAE8;
@@ -19,18 +19,17 @@
             --accent: #FB8500;
             --accent-light: #FFB703;
             --success: #28a745;
-            --danger: #ff4351;
             --warning: #ffc107;
         }
 
-        /* 🌟 Contenedor principal */
+        /* Contenedor principal */
         #divcontenedor {
             opacity: 0;
             transition: all 0.6s ease;
         }
         #divcontenedor.show { opacity: 1; }
 
-        /* 🎯 Header con gradiente */
+        /* Header con gradiente */
         .content-header {
             background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
             border-radius: 25px;
@@ -65,7 +64,7 @@
             filter: drop-shadow(0 2px 8px rgba(251, 133, 0, 0.3));
         }
 
-        /* 🚀 Botón agregar moderno */
+        /* Botón agregar moderno */
         .btn-add {
             background: linear-gradient(135deg, var(--success) 0%, #20c997 100%);
             border: none;
@@ -156,7 +155,7 @@
             background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
         }
 
-        /* ✨ Modales rediseñados */
+        /* Modales rediseñados */
         .modal-content {
             border-radius: 25px;
             border: none;
@@ -254,7 +253,7 @@
             transform: translateY(-2px);
         }
 
-        /* 🔘 Toggle switch mejorado */
+        /* Toggle switch mejorado */
         .switch {
             position: relative;
             display: inline-block;

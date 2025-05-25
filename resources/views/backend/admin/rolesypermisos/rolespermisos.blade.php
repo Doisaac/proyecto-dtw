@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-        /* 🎨 Paleta de colores */
+        /* Paleta de colores */
         :root {
             --primary: #219EBC;
             --primary-light: #8ECAE8;
@@ -18,19 +18,18 @@
             --accent: #FB8500;
             --accent-light: #FFB703;
             --success: #28a745;
-            --danger: #ff4351;
             --warning: #ffc107;
             --secondary: #6c757d;
         }
 
-        /* 🌟 Contenedor principal */
+        /* Contenedor principal */
         #divcontenedor {
             opacity: 0;
             transition: all 0.6s ease;
         }
         #divcontenedor.show { opacity: 1; }
 
-        /* 🎯 Header con gradiente púrpura */
+        /* Header con gradiente púrpura */
         .content-header {
             background: linear-gradient(135deg, var(--primary-light) 0%, var(--primary) 100%);
             border-radius: 25px;
@@ -65,7 +64,7 @@
             filter: drop-shadow(0 2px 8px rgba(253, 126, 20, 0.3));
         }
 
-        /* 🚀 Botón moderno */
+        /* Botón moderno */
         .btn-group-modern {
             display: flex;
             justify-content: center;
@@ -116,7 +115,7 @@
             font-size: 1.2rem;
         }
 
-        /* 💎 Card principal elegante */
+        /*  Card principal */
         .main-card {
             background: white;
             border-radius: 25px;
@@ -167,7 +166,7 @@
             background: linear-gradient(145deg, #ffffff 0%, #f8f9fa 100%);
         }
 
-        /* ✨ Modales rediseñados */
+        /* Modales rediseñados */
         .modal-content {
             border-radius: 25px;
             border: none;
@@ -228,7 +227,7 @@
             background: #f8f9fa;
         }
 
-        /* 📝 Formularios mejorados */
+        /* Formularios mejorados */
         .form-group {
             margin-bottom: 25px;
             position: relative;
@@ -249,7 +248,7 @@
             width: 18px;
         }
 
-        /* 🎯 Select2 personalizado */
+        /* Select2 personalizado */
         .select2-container--bootstrap-5 .select2-selection {
             border: 2px solid #e9ecef !important;
             border-radius: 15px !important;
@@ -277,7 +276,7 @@
             box-shadow: 0 10px 30px rgba(111, 66, 193, 0.2) !important;
         }
 
-        /* 🎯 Botones de modal */
+        /* Botones de modal */
         .btn-success-modern {
             background: linear-gradient(135deg, var(--success) 0%, #20c997 100%);
             border: none;
@@ -330,7 +329,7 @@
             color: white;
         }
 
-        /* 🚨 Modal de borrar especial */
+        /* Modal de borrar especial */
         .modal-delete .modal-header {
             background: linear-gradient(135deg, var(--danger) 0%, #dc3545 100%);
         }
@@ -352,7 +351,7 @@
             margin-bottom: 20px;
         }
 
-        /* 📱 Responsive */
+        /* Responsive */
         @media (max-width: 768px) {
             .content-header h1 { font-size: 2.2rem; }
             .btn-modern { width: 100%; max-width: 300px; }
@@ -360,7 +359,7 @@
             .modal-body { padding: 25px; }
         }
 
-        /* 🎭 Animaciones */
+        /* Animaciones */
         @keyframes slideInUp {
             from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
@@ -368,7 +367,7 @@
 
         .animate-in { animation: slideInUp 0.6s ease-out; }
 
-        /* 📊 Tabla responsive */
+        /* Tabla responsive */
         table { table-layout: fixed; }
     </style>
 @stop
@@ -497,7 +496,7 @@
 
 <script>
     $(document).ready(function(){
-        // 🎨 Configurar toastr
+        // Configurar toastr
         toastr.options = {
             "closeButton": true,
             "progressBar": true,
@@ -505,7 +504,7 @@
             "timeOut": "3000"
         };
 
-        // 🎯 Configurar Select2
+        // Configurar Select2
         $('#permiso-nuevo').select2({
             theme: "bootstrap-5",
             placeholder: "Seleccione un permiso...",
@@ -520,7 +519,7 @@
             }
         });
 
-        // 📊 Cargar tabla con el ID del rol
+        // Cargar tabla con el ID del rol
         var id = {{ $id }};
         var ruta = "{{ url('/admin/roles/permisos/tabla') }}/" + id;
         $('#tablaDatatable').load(ruta, function() {

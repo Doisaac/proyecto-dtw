@@ -16,7 +16,6 @@
             --accent: #FB8500;
             --accent-light: #FFB703;
             --success: #28a745;
-            --danger: #ff4351;
         }
 
         /*  Contenedor principal */
