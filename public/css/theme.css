@@ -140,6 +140,11 @@
   color: #0D1B2A !important;
 }
 
+.dark-mode .table thead th {
+  background-color: #778DA9 !important;
+  color: #0D1B2A !important;
+}
+
 .dark-mode .table tbody tr:nth-child(odd) {
   background-color: #1B263B !important;
 }
@@ -172,4 +177,10 @@
 /* Icono de cierre visible */
 .dark-mode .btn-close {
   filter: invert(1);
+}
+
+/* Columna de vehículos */
+.dark-mode .col-vehiculo {
+  background-color: #2C3E50 !important;
+  color: #E0E1DD !important;
 }
