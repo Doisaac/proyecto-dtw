@@ -16,7 +16,6 @@
             --accent: #FB8500;
             --accent-light: #FFB703;
             --success: #28a745;
-            --danger: #ff4351;
             --warning: #ffc107;
             --secondary: #6c757d;
         }
@@ -366,7 +365,7 @@
             .modal-body { padding: 25px; }
         }
 
-        /* 🎭 Animaciones */
+        /* Animaciones */
         @keyframes slideInUp {
             from { opacity: 0; transform: translateY(30px); }
             to { opacity: 1; transform: translateY(0); }
@@ -374,8 +373,26 @@
 
         .animate-in { animation: slideInUp 0.6s ease-out; }
 
-        /* 📊 Tabla responsive */
+        /* Tabla responsive */
         table { table-layout: fixed; }
+
+
+        .dataTables_wrapper .dataTables_length select {
+            background: white !important;
+            border: 2px solid #dee2e6 !important;
+            border-radius: 10px !important;
+            padding: 5px 25px 18px 25px !important; /* ← Menos padding arriba, más abajo */
+            height: 42px !important;
+            min-height: 42px !important;
+            color: #212529 !important;
+            min-width: 90px !important;
+            line-height: 1.2 !important;
+            vertical-align: top !important;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+            cursor: pointer !important;
+            text-align: center !important; /* ← Centrar horizontalmente */
+        }
+
     </style>
 @stop
 
