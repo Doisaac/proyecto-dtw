@@ -5,7 +5,7 @@
 <script src="{{ asset('js/theme.js') }}"></script>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin: 20px 0;">
-  <div>Modo oscuro</div>
+<div class="mode-label">Modo oscuro</div>
   <label class="switch">
     <input type="checkbox" id="theme-toggle" onchange="toggleTheme()" />
     <span class="slider round"></span>
