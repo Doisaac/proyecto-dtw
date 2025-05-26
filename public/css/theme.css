@@ -199,7 +199,6 @@
   font-weight: bold;
 }
 
-
   /* Modo oscuro*/
 .dark-mode {
   background-color: #0D1B2A !important;
@@ -352,3 +351,37 @@
   color: #E0E1DD !important;
   font-weight: bold;
 }
+
+/* Inputs, selects y textareas en modo oscuro */
+.dark-mode input,
+.dark-mode select,
+.dark-mode textarea {
+  background-color: #1B263B !important;
+  color: #E0E1DD !important;
+  border: 1px solid #415A77 !important;
+}
+
+/* Placeholder en modo oscuro */
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder {
+  color: #778DA9 !important;
+}
+
+/* Al enfocar */
+.dark-mode input:focus,
+.dark-mode select:focus,
+.dark-mode textarea:focus {
+  background-color: #0D1B2A !important;
+  color: #E0E1DD !important;
+  border-color: #778DA9 !important;
+  outline: none !important;
+}
+
+/* Para formularios de Bootstrap */
+.dark-mode .form-control,
+.dark-mode .form-select {
+  background-color: #1B263B !important;
+  color: #E0E1DD !important;
+  border: 1px solid #415A77 !important;
+}
+
