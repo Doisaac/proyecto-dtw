@@ -399,6 +399,7 @@
 <div id="divcontenedor" style="display: none">
     <!-- Header-->
     <section class="content-header animate-in">
+
         <div class="container-fluid">
             <h1><i class="fas fa-user-shield"></i>Roles y Permisos</h1>
             
@@ -415,6 +416,8 @@
 
     <!-- Card principal -->
     <section class="content">
+    <div class="theme-card p-4 rounded-4">
+
         <div class="container-fluid">
             <div class="main-card animate-in">
                 <div class="card-header">
@@ -431,6 +434,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <!-- Modal Agregar Rol -->

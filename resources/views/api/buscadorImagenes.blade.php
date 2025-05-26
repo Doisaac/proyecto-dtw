@@ -15,7 +15,7 @@
         <!-- Formulario buscador -->
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-6">
-                <div class="search-card">
+                <div class="theme-card p-4 rounded-4">
                     <form id="formulario" class="p-4">
                         <div class="mb-4">
                             <label for="termino" class="form-label fw-semibold mb-3" style="color: #023047; font-size: 16px;">
@@ -80,7 +80,7 @@
         pointer-events: none;
     }
 
-    .search-card {
+    .theme-card p-4 rounded-4 {
         background: rgba(255, 255, 255, 0.95);
         border-radius: 20px;
         box-shadow: 0 20px 40px rgba(2, 48, 71, 0.1);
@@ -89,7 +89,7 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-    .search-card:hover {
+    .theme-card p-4 rounded-4:hover {
         transform: translateY(-5px);
         box-shadow: 0 25px 50px rgba(2, 48, 71, 0.15);
     }
@@ -205,7 +205,7 @@
             font-size: 2.5rem;
         }
         
-        .search-card {
+        .theme-card p-4 rounded-4 {
             margin: 0 15px;
         }
         
