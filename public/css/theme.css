@@ -433,3 +433,26 @@ body.dark-mode,
   border: 1px solid #415A77;             
   box-shadow: 0 6px 25px rgba(0,0,0,.4); 
 }
+.light-mode .main-sidebar a.nav-link,
+.light-mode .main-sidebar a.nav-link p,
+.light-mode .main-sidebar a.nav-link i,
+.light-mode .main-sidebar a.nav-link .nav-icon {
+    color:#FFFFFF !important;
+}
+
+
+.light-mode .main-sidebar .brand-link,
+.light-mode .main-sidebar .brand-link .brand-text {
+    color:#FFFFFF !important;
+}
+
+.light-mode .main-sidebar a.nav-link:hover,
+.light-mode .main-sidebar a.nav-link:focus {
+    color:#FFFFFF !important;
+    background-color:rgba(255,255,255,.12);   
+}
+
+.light-mode .main-sidebar a.nav-link.active {
+    color:#0D1B2A !important;                 
+    background-color:#FFFFFF !important;      
+}
