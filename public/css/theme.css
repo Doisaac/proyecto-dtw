@@ -456,3 +456,10 @@ body.dark-mode,
     color:#0D1B2A !important;                 
     background-color:#FFFFFF !important;      
 }
+.light-mode .main-header,
+.light-mode .main-header .navbar-brand,
+.light-mode .main-header .navbar-brand .brand-text,
+.light-mode .main-header .nav-link,
+.light-mode .main-header .nav-link i {
+    color:#FFFFFF !important;
+}
