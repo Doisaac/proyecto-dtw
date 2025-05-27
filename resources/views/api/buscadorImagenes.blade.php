@@ -49,7 +49,7 @@
 </div>
 
 <!-- Resultados -->
-<div class="results-section bg-light py-5">
+<div class="results-section buscador-results py-5">
     <div class="container">
         <!-- Resultados Grid -->
         <div id="resultado" class="row g-4"></div>
