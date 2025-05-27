@@ -1,5 +1,14 @@
 @extends('backend.menus.superior')
+<link rel="stylesheet" href="{{ asset('css/theme.css') }}">
+<script src="{{ asset('js/theme.js') }}"></script>
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; margin: 20px 0;">
+<div class="mode-label">Modo oscuro</div>
+  <label class="switch">
+    <input type="checkbox" id="theme-toggle" onchange="toggleTheme()" />
+    <span class="slider round"></span>
+  </label>
+</div>
 @section('content-admin-css')
     <link href="{{ asset('css/adminlte.min.css') }}" type="text/css" rel="stylesheet" />
     <link href="{{ asset('css/dataTables.bootstrap4.css') }}" type="text/css" rel="stylesheet" />
