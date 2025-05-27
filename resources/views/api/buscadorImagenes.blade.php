@@ -2,7 +2,7 @@
 
 @section('content')
 <!-- Hero Section -->
-<div class="hero-section" style="background: linear-gradient(135deg, #8ECAE8 0%, #219EBC 100%); min-height: 80vh;">
+<div class="hero-section buscador-hero" style="min-height: 80vh;">
     <div class="container py-5">
         <!-- Header -->
         <div class="text-center mb-5">

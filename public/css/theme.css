@@ -423,3 +423,13 @@ body.dark-mode,
 .dark-mode .content-wrapper{
   min-height: 100vh;
 }
+.light-mode .buscador-hero{
+  background: linear-gradient(135deg, #8ECAE8 0%, #219EBC 100%);
+}
+
+/* — modo oscuro — */
+.dark-mode .buscador-hero{
+  background: linear-gradient(145deg, #13293D 0%, #0D1B2A 100%);
+  border: 1px solid #415A77;             
+  box-shadow: 0 6px 25px rgba(0,0,0,.4); 
+}
