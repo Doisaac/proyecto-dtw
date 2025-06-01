@@ -412,13 +412,10 @@ body.dark-mode,
 .dark-mode body,
 .dark-mode .wrapper,
 .dark-mode .content-wrapper,
-.dark-mode .main-header,
 .dark-mode .main-footer,
-.dark-mode .sidebar,
 .dark-mode .control-sidebar {
   background-color: var(--dark-bg) !important;
 }
-
 
 .dark-mode .content-wrapper{
   min-height: 100vh;
