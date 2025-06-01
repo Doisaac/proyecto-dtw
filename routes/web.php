@@ -65,3 +65,7 @@ Route::resource('vehiculos', VehiculoController::class);
 Route::middleware('auth')->get('api/', function () {
     return view('api.buscadorImagenes');
 })->name('api');
+
+Route::get('/slider', function () {
+    return view('slider');
+})->name('slider.show');

@@ -41,7 +41,7 @@
     <div class="content-wrapper">
         <!-- redireccionamiento de vista -->
          
-        <iframe style="width: 100%; resize: initial; overflow: hidden; min-height: 96vh" frameborder="0"  scrolling="" id="frameprincipal" src="{{ route($ruta) }}" name="frameprincipal">
+        <iframe style="width: 100%; resize: initial; overflow: hidden; min-height: 96vh" frameborder="0"  scrolling="" id="frameprincipal" src="{{ route('slider.show') }}" name="frameprincipal">
         </iframe>
 
     </div>
