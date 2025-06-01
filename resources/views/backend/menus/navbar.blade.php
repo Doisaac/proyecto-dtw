@@ -8,7 +8,10 @@
 
     <ul class="navbar-nav">
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="#" class="nav-link" style="color: white">Sistema de Registro de Vehículos</a>
+            <a href="{{ route('slider.show') }}" target="frameprincipal" class="nav-link" style="color: white">
+                <i class="fas fa-home mr-2"></i>
+                Sistema de Registro de Vehículos
+            </a>
         </li>
     </ul>
 

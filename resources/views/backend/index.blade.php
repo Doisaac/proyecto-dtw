@@ -12,6 +12,8 @@
     <link href="{{ asset('fontawesome-free/css/all.min.css') }}" type="text/css" rel="stylesheet" />
     <!-- Theme style -->
     <link href="{{ asset('css/adminlte.min.css') }}" type="text/css" rel="stylesheet" />
+    
+    <link href="{{ asset('css/theme.css') }}" rel="stylesheet" />
     <!-- Mensajes Toast -->
     <link href="{{ asset('css/toastr.min.css') }}" type="text/css" rel="stylesheet" />
     @yield('content-admin-css')
@@ -23,15 +25,23 @@
  <body class="sidebar-mini sidebar-closed sidebar-collapse" style="height: auto;">
  -->
 
-<body class="hold-transition sidebar-mini">
+ <body id="mainBody" class="hold-transition sidebar-mini">
+ <script>
+(function () {
+    const mode = localStorage.getItem('theme') === 'dark' ? 'dark-mode' : 'light-mode';
+
+    document.getElementById('mainBody').classList.add(mode);
+})();
+</script>
+
 <div class="wrapper">
     @include("backend.menus.navbar")
     @include("backend.menus.sidebar")
 
-    <div class="content-wrapper" style=" background-color: #fff;">
+    <div class="content-wrapper">
         <!-- redireccionamiento de vista -->
          
-        <iframe style="width: 100%; resize: initial; overflow: hidden; min-height: 96vh" frameborder="0"  scrolling="" id="frameprincipal" src="{{ route($ruta) }}" name="frameprincipal">
+        <iframe style="width: 100%; resize: initial; overflow: hidden; min-height: 96vh" frameborder="0"  scrolling="" id="frameprincipal" src="{{ route('slider.show') }}" name="frameprincipal">
         </iframe>
 
     </div>
