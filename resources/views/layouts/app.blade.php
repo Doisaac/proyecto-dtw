@@ -7,7 +7,7 @@
     @stack('styles')
 </head>
 
-<body>
+<body class="light-mode">
     <div class="container mt-4">
         @yield('content')
     </div>
