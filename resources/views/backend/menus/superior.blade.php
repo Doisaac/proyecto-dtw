@@ -3,7 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Panel</title>
+    <title>Registro de Vehículos</title>
+
+    <link rel="stylesheet" href="{{ asset('css/theme.css') }}">
+
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -19,6 +22,7 @@
 
     <script type="text/javascript"> var url = "/admin"; </script>
 </head>
+<script src="{{ asset('js/theme.js') }}"></script>
 <body class="hold-transition sidebar-mini">
 
 
