@@ -102,7 +102,7 @@ php artisan serve
 
 Por lo que ahora se puede acceder al proyecto desde la web usando los siguientes datos de inicio de sesión:
 
--**Usuario administrador:** Usuario: `admin`, Contraseña: `1234`
+- **Usuario administrador:** Usuario: `admin`, Contraseña: `1234`
 - **Usuario normal:** Usuario: `usuario`, Contraseña: `1234`
   
 ---
